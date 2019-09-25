@@ -2,7 +2,7 @@
 
 	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		
-		$receiver_mail = "ex@mail.com"; //change mail here
+		$receiver_mail = "swapnilp576p@gmail.com"; //change mail here
 		$subject = ""; //email subject 
 
 		$message = "";
