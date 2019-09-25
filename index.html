@@ -216,31 +216,31 @@
                 <div class="modal-body">
                     
                   <!-- <div class="alert alert-success hide"></div> -->
-                  <form id="regiration_form" method="POST" action="mail-submit.php" novalidate style="text-align: left">
+                  <form id="regiration_form" action="mail-submit.php" method="POST" novalidate style="text-align: left">
                     <fieldset>
                       <!-- <h2>Step 1: Create your account</h2> -->
                       <div class="form-group">
                         <p class="question">Type of Home</p>
-                          <p><input type="radio" name="q1" value="Single family">Single family <br>
-                            <input type="radio" name="q1" value="Condominium">Condominium <br>
-                            <input type="radio" name="q1" value="Townhouse">Townhouse <br>
-                            <input type="radio" name="q1" value="Multi family">Multi family <br>
+                          <p><input type="radio" name="Type of Home" value="Single family">Single family <br>
+                            <input type="radio" name="Type of Home" value="Condominium">Condominium <br>
+                            <input type="radio" name="Type of Home" value="Townhouse">Townhouse <br>
+                            <input type="radio" name="Type of Home" value="Multi family">Multi family <br>
                            </p>
                       </div>
                       <div class="form-group">
                         <p class="question">Property Use</p>
-                          <p><input type="radio" name="q2" value="Primary residence">Primary residence <br>
-                            <input type="radio" name="q2" value="Secondary home">Secondary home<br>
-                            <input type="radio" name="q2" value="Investment property">Investment property<br>
+                          <p><input type="radio" name="Property Use" value="Primary residence">Primary residence <br>
+                            <input type="radio" name="Property Use" value="Secondary home">Secondary home<br>
+                            <input type="radio" name="Property Use" value="Investment property">Investment property<br>
                            </p>
                       </div>
                       <div class="form-group">
                         <p class="question">How Long Have You Live at Your Current Residence?
                         </p>
-                          <p><input type="radio" name="q3" value="0-1 Year">0-1 Year <br>
-                            <input type="radio" name="q3" value="2-3 Years">2-3 Years<br>
-                            <input type="radio" name="q3" value="3-4 Years">3-4 Years<br>
-                            <input type="radio" name="q3" value="5+ Years">5+ Years<br>
+                          <p><input type="radio" name="How Long Have You Live at Your Current Residence?" value="0-1 Year">0-1 Year <br>
+                            <input type="radio" name="How Long Have You Live at Your Current Residence?" value="2-3 Years">2-3 Years<br>
+                            <input type="radio" name="How Long Have You Live at Your Current Residence?" value="3-4 Years">3-4 Years<br>
+                            <input type="radio" name="How Long Have You Live at Your Current Residence?" value="5+ Years">5+ Years<br>
 
                            </p>
                       </div>
@@ -256,12 +256,12 @@
                       <!-- <h2>Step 2: Add Personnel Details</h2> -->
                       <div class="form-group">
                         <p class="question">What's Your Credit Profile?</p>
-                          <p><input type="radio" name="q4" value="Excellent (720 and above)">Excellent (720 and above)<br>
-                            <input type="radio" name="q4" value="Good (660 - 719)">Good (660 - 719)<br>
-                            <input type="radio" name="q4" value="Average (620 - 659)">Average (620 - 659) <br>
-                            <input type="radio" name="q4" value="Below average (580 - 619)">Below average (580 - 619) <br>
-                            <input type="radio" name="q4" value="Poor (579 and below)">Poor (579 and below) <br>
-                            <input type="radio" name="q4" value="I don't know; you tell me">I don't know; you tell me<br>
+                          <p><input type="radio" name="What's Your Credit Profile?" value="Excellent (720 and above)">Excellent (720 and above)<br>
+                            <input type="radio" name="What's Your Credit Profile?" value="Good (660 - 719)">Good (660 - 719)<br>
+                            <input type="radio" name="What's Your Credit Profile?" value="Average (620 - 659)">Average (620 - 659) <br>
+                            <input type="radio" name="What's Your Credit Profile?" value="Below average (580 - 619)">Below average (580 - 619) <br>
+                            <input type="radio" name="What's Your Credit Profile?" value="Poor (579 and below)">Poor (579 and below) <br>
+                            <input type="radio" name="What's Your Credit Profile?" value="I don't know; you tell me">I don't know; you tell me<br>
  
                           </p>
                       </div>
@@ -288,18 +288,18 @@
                          <div class="col-12">
                             <h5>Address of Property Being Refinanced</h5>
                             <label for="street">Street Address</label>
-                            <input type="text" id="street" name="q5" class="w-100">
+                            <input type="text" id="street" name="Street Address" class="w-100">
                          </div>
                         
                         </div>
                         <div class="col-12">
                           <div class="col-6 w-100" style="float: left">
                             <label for="city">City</label><br>
-                            <input type="text" id="city" name="q5" class="w-100">
+                            <input type="text" id="city" name="City" class="w-100">
                           </div>
                           <div class="col-6 w-100" style="float: left" >
                             <label for="State">State / Province / Region </label><br>
-                            <input type="text" id="State" name="q5" value="Washington"class="w-100">
+                            <input type="text" id="State" name="State / Province / Region = " value="Washington"class="w-100">
                           </div>  
                         </div>  
 
@@ -308,7 +308,7 @@
                            <div class="col-6" style="float: left">
                                   <label for="ZIP">ZIP / Postal Code
                                     </label>
-                                  <input type="text" id="ZIP" name="q5" class="w-100">
+                                  <input type="text" id="ZIP" name="ZIP / Postal Code - " class="w-100">
                                 </div>
                                 <div class="col-6" style="float: left">
                                   <label for="country">Country </label>
@@ -585,19 +585,19 @@
                               <p class="question">Present Employer
                                 </p>
                                 <p><input type="text"                               class="form-control"
-                                  name="" >
+                                  name="Present Employer" >
                                 </p>
                           </div>
                           <div class="form-group">
                               <p class="question">Years In The Industry?
 
                               </p>
-                              <p><input type="radio" name="q6" value="0-1 Year">0-1 Year<br>
-                                <input type="radio" name="q6" value="2-3 Years
+                              <p><input type="radio" name="Years In The Industry?" value="0-1 Year">0-1 Year<br>
+                                <input type="radio" name="Years In The Industry?" value="2-3 Years
                                 ">2-3 Years
                                 <br>
-                                <input type="radio" name="q6" value="3-4 Years">3-4 Years <br>
-                                <input type="radio" name="q6" value="5 Years+
+                                <input type="radio" name="Years In The Industry?" value="3-4 Years">3-4 Years <br>
+                                <input type="radio" name="Years In The Industry?" value="5 Years+
                                 ">5 Years+    <br>
                               </p>
                           </div>
@@ -607,7 +607,8 @@
 
                                 </p>
                                 <p><input type="text"                              class="form-control"
-                                  name="" >
+                                  name="Gross Monthly Income
+                                  " >
                                 </p>
                           </div>
                           <div class="form-group">
@@ -615,10 +616,10 @@
 
 
                               </p>
-                              <p><input type="radio"  name="q6" value="Single">Single<br>
-                                <input type="radio"  name="q6" value="Married">Married
+                              <p><input type="radio"  name="Marital Status" value="Single">Single<br>
+                                <input type="radio"  name="Marital Status" value="Married">Married
                                 <br>
-                                <input type="radio"  name="q6" value="Other">Other
+                                <input type="radio"  name="Marital Status" value="Other">Other
                                 <br>
                                 
                               </p>
@@ -648,12 +649,14 @@
                               type="text"
                               class="form-control"
                               id="loan"
+                              name="How Much Is Left on the Loan?"
                             />
                           </div>
                           <div class="form-group">
                             <label for="loanD">When is the Maturity Date on the Loan?
                               </label>
                               <input
+                              name="When is the Maturity Date on the Loan?"
                               type="text"
                               class="form-control"
                               id="loanD"
@@ -664,15 +667,16 @@
                               </label>
                                 <input
                                 type="text"
+                                name="Current Interest Rate?"
                                 class="form-control"
                                 id="loanD"
                               />
                             </div>
-                         <div class="form-group">
+                            <div class="form-group">
                                 <label for="loanD">Have all your payments been on time?
                                 </label><br>
-                                 <input type="radio" >Yes <br>
-                                 <input type="radio" >No <br>
+                                 <input type="radio"  name="Have all your payments been on time?">Yes <br>
+                                 <input type="radio" name="Have all your payments been on time?" >No <br>
 
                               </div>
                           <input
@@ -692,26 +696,26 @@
                       <!-- <h2>Step 6: Contact Information</h2> -->
                       <div class="row">
                           <div class="col-12">
-                            <h5>Contact Details</h5>
+                            <h5>name</h5>
                               <div class="col-6 w-100" style="float: left">
                                 <label for="name">First</label><br>
-                                <input type="text" id="name" class="w-100">
+                                <input type="text"name="First Name" id="name" class="w-100">
                               </div>
                               <div class="col-6 w-100" style="float: left" >
                                 <label for="State">Last </label><br>
-                                <input type="text" id="State"  class="w-100">
+                                <input type="text" name="Last Name" id="State"  class="w-100">
                               </div>  
                             </div>  
                         <div class="col-12">
                             <div class="col-6 w-100">
                                 <label for="email">Email</label><br>
-                                <input type="email" id="email"  class="w-100">
+                                <input type="email"  name="Email" id="email"  class="w-100">
                               </div>
                         </div>
                         <div class="col-12">
                             <div class="col-6 w-100" >
                                 <label for="mob">Mobile Number</label><br>
-                                <input type="number" id="mob"  class="w-100">
+                                <input type="number" name="Mobile Number" id="mob"  class="w-100">
                               </div>
                         </div>
                       </div>
@@ -735,14 +739,14 @@
                             <label for="loanD">Anything else we should know?
 
                             </label><br>
-                            <textarea name="textarea" id="" cols="80" rows="10"></textarea>
+                            <textarea name="Anything else we should know?" id="" cols="80" rows="10"></textarea>
                              
                           </div>
                         <p>
                             I authorize United Funding Company to obtain personal and credit information about me from my employer and credit bureau, or credit reporting agency, any person who has or may have any financial dealing with me, or from any references I have provided. This information, as well as that provided by me in the application, will be referred to in connection with this loan and any other relationships we may establish from time to time. Any personal and credit information obtained may be disclosed from time to time to other lenders, credit bureaus or other credit reporting agencies.
                         </p>
 
-                          <input type="checkbox">yes
+                          <input type="checkbox" name="checkbox">yes
 
                         <br>
                         <input
@@ -755,7 +759,7 @@
                         type="submit"
                         name="submit"
                         class="submit btn btn-success"
-                        value="Submit"
+                        value="Submit" 
                       />
                       </fieldset>
                   </form>
@@ -954,8 +958,7 @@
       </div>
     </section>
 
-
-
+    
     <!--------------------------------------------------------FOOTER ---------------------------------->
     <footer
     class="page-footer font-small teal pt-4" style="background-color: #0a013d;color: white"> <!-- Footer Text -->
@@ -1060,13 +1063,8 @@
         });
       
         $("#regiration_form").submit(function(event) {
-          jQuery(".alert-success")
-            .removeClass("hide")
-            .html(
-              "Handler for .submit() called and see console logs for your posted variable"
-            );
-          console.log($(this).serialize());
-          event.preventDefault();
+          
+          document.getElementById('regiration_form').submit()
         });
       </script>
       
